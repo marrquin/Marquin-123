@@ -2,10 +2,15 @@
 margin:0;
 padding:0;
 }
-
+body{
+        font-family: "Bebas Neue", sans-serif;
+        
+      }
+      
+      
 .cabecalho {
     background-color: black;
-    color: white;
+    color: white ;
     display: flex;
     justify-content:space-around;
     align-items:center;
@@ -20,4 +25,24 @@ padding:0;
     display:inline-block;
     margin: 0 16px;
     font-size: 24px;
+}
+.escola-imagem{
+width:15%;
+}
+ .escola{
+    background-image:linear-gradient(black,white);
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 24px 0;
+}
+.escola-div-conteudo{
+    width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+.GTA-imagem{
+    width: 24px;
 }
